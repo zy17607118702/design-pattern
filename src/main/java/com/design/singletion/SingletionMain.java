@@ -1,6 +1,7 @@
 package com.design.singletion;//类注释设置模板
 
-import com.design.singletion.lanhan.Singletion;
+import com.design.singletion.ehan.SingletionE;
+import com.design.singletion.lanhan.SingletionL;
 
 /**
  * @Name:SingletionMain
@@ -16,8 +17,13 @@ public class SingletionMain {
          */
 
         //懒汉式
-        final Singletion instance = Singletion.getInstance();
-        final Singletion instance1 = Singletion.getInstance();
+        final SingletionL instance = SingletionL.getInstance();
+        final SingletionL instance1 = SingletionL.getInstance();
         System.out.println(instance==instance1);
+        //饿汉式 直接new 不判断是否为空
+        final SingletionE instance2 = SingletionE.getInstance();
+        final SingletionE instance3 = SingletionE.getInstance();
+        System.out.println(instance2==instance3);
+
     }
 }
