@@ -5,4 +5,10 @@
 doc主要写自己一边写一边总结出来的文档
 
 博客来源:https://www.cnblogs.com/xing901022/category/642865.html 
-这个大佬技术很好 去吧他的java部分学习一下 敲一下
+这个大佬技术很好 去把他的java部分学习一下 敲一下
+
+
+bufferReader  文件内容读取<br/>
+clone  深度克隆和浅度克隆<br/>
+exception  自己写的自定义异常处理类<br/>
+singletion目录 单例模式<br/>
